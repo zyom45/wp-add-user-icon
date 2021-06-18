@@ -1,0 +1,39 @@
+#lep_aui #lep_aui_image_upload {
+  margin: 20px auto;
+}
+#lep_aui input[type=submit] {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #1e6ce0;
+  color: #ffffff;
+  border-radius: 6px;
+}
+#lep_aui input[type=submit].lep_delete_btn {
+  background-color: #d42f2f;
+}
+#lep_aui .lep_aui_user_icon {
+  margin: 10px auto;
+}
+#lep_aui .lep_aui_user_icon figure {
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.lep_message {
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.lep_message.lep_message_success {
+  color: #36be63;
+  background-color: #c2eed0;
+}
+.lep_message.lep_message_error {
+  color: #d42f2f;
+  background-color: #f0cbcb;
+}/*# sourceMappingURL=lep-aui.css.map */

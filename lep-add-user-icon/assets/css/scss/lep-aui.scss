@@ -1,0 +1,51 @@
+$Primary_Color:#1e6ce0;
+$White_Color:#ffffff;
+
+$Success_Color:#36be63;
+$Success_Color_light:#c2eed0;
+$Error_Color:#d42f2f;
+$Error_Color_light:#f0cbcb;
+
+
+#lep_aui {
+    #lep_aui_image_upload {
+        margin: 20px auto;
+    }
+    input[type="submit"] {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: $Primary_Color;
+        color: $White_Color;
+        border-radius: 6px;
+        &.lep_delete_btn {
+            background-color: $Error_Color;
+        }
+    }
+    .lep_aui_user_image {
+    }
+
+    .lep_aui_user_icon {
+        margin: 10px auto;
+        figure {
+            width: 150px;
+            height: 150px;
+            padding: 8px;
+            background-color: $White_Color;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+    }
+}
+.lep_message {
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    &.lep_message_success {
+        color:$Success_Color;
+        background-color: $Success_Color_light;
+    }
+    &.lep_message_error {
+        color:$Error_Color;
+        background-color: $Error_Color_light;
+    }
+} 
